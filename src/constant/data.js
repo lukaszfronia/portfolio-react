@@ -24,11 +24,17 @@ import javascript from "../assets/javascript.png";
 import typescript from "../assets/typescript.png";
 import reactjs from "../assets/reactjs.png";
 import tailwindcss from "../assets/tailwindcss.png";
-import threejs from "../assets/threejs.svg";
+import visualstudiocode from "../assets/visualstudiocode.png";
 import firebase from "../assets/firebase.png";
 import photoshop from "../assets/photoshop.png";
 import adobexd from "../assets/adobexd.png";
 import github from "../assets/github.png";
+import userImage from "../assets/About.png";
+
+import Bankist from "../assets/Bankist.png";
+import Omnifood from "../assets/Omnifood.png";
+import Portfolio from "../assets/Portfolio.png";
+import Weather from "../assets/Weather.png";
 
 const navLinks = [
   {
@@ -60,6 +66,14 @@ const hero = {
   alt: "computer on the table",
 };
 
+const about = {
+  title: "I'm Łukasz",
+  description:
+    "I graduated from the Opole University of Technology with an engineering degree in Computer Science. I'm interested in computer games and volleyball. I'm currently looking for a job where I can use my skills and improve them as a Front-end Developer.",
+  image: userImage,
+  alt: "Author profil image",
+};
+
 const technologies = [
   {
     name: "HTML 5",
@@ -85,10 +99,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwindcss,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "Firebase",
     icon: firebase,
@@ -102,6 +113,10 @@ const technologies = [
     icon: adobexd,
   },
   {
+    name: "Three JS",
+    icon: visualstudiocode,
+  },
+  {
     name: "github",
     icon: github,
   },
@@ -109,26 +124,81 @@ const technologies = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Bankist App",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "html",
+        color: "text-orange-500",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "css",
+        color: "text-blue-600",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "javascript",
+        color: "text-yellow-400",
       },
     ],
-    // image: carrent,
+    image: Bankist,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Omnifood",
+    tags: [
+      {
+        name: "html",
+        color: "text-orange-500",
+      },
+      {
+        name: "css",
+        color: "text-blue-600",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-400",
+      },
+    ],
+    image: Omnifood,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Portfolio",
+    tags: [
+      {
+        name: "html",
+        color: "text-orange-500",
+      },
+      {
+        name: "css",
+        color: "text-blue-600",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-400",
+      },
+    ],
+    image: Portfolio,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Weather App",
+    tags: [
+      {
+        name: "html",
+        color: "text-orange-500",
+      },
+      {
+        name: "css",
+        color: "text-blue-600",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-400",
+      },
+    ],
+    image: Weather,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { navLinks, hero, projects, technologies };
+export { navLinks, hero, about, projects, technologies };
