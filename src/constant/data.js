@@ -30,7 +30,7 @@ import photoshop from "../assets/photoshop.png";
 import adobexd from "../assets/adobexd.png";
 import github from "../assets/github.png";
 
-const NavLinks = [
+const navLinks = [
   {
     id: "home",
     title: "Home",
@@ -131,4 +131,4 @@ const projects = [
   },
 ];
 
-export { NavLinks, hero, projects, technologies };
+export { navLinks, hero, projects, technologies };
