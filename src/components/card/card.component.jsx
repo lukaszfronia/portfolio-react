@@ -24,7 +24,10 @@ const Card = ({ project }) => {
       <div className="flex gap-4">
         {tags.map((tag) => {
           return (
-            <p className={`text-sm font-extrabold ${tag.color}`}>
+            <p
+              key={Math.floor(Math.random() * 10000)}
+              className={`text-sm font-extrabold ${tag.color}`}
+            >
               #{tag.name.toUpperCase()}
             </p>
           );

@@ -36,6 +36,10 @@ import Omnifood from "../assets/Omnifood.png";
 import Portfolio from "../assets/Portfolio.png";
 import Weather from "../assets/Weather.png";
 
+import location from "../assets/location.png";
+import mail from "../assets/mail.png";
+import phone from "../assets/telephone.png";
+
 const navLinks = [
   {
     id: "home",
@@ -201,4 +205,25 @@ const projects = [
   },
 ];
 
-export { navLinks, hero, about, projects, technologies };
+const contacts = [
+  {
+    id: 1,
+    title: "Address",
+    data: "Chabrów 19/10 45-221 Opole",
+    icon: location,
+  },
+  {
+    id: 2,
+    title: "E-mail",
+    data: "lukaszfronia99@gmail.com",
+    icon: mail,
+  },
+  {
+    id: 3,
+    title: "Phone",
+    data: 696129815,
+    icon: phone,
+  },
+];
+
+export { navLinks, hero, about, projects, technologies, contacts };

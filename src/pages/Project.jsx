@@ -35,7 +35,7 @@ const Project = () => {
         >
           {projects.map((project, i) => (
             <SwiperSlide key={Math.floor(Math.random() * 10000)}>
-              <Card key={Math.floor(Math.random() * 10000)} project={project} />
+              <Card key={`project-${i}`} project={project} />
             </SwiperSlide>
           ))}
         </Swiper>
