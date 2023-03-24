@@ -18,15 +18,30 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className="max-w-[1300px] h-screen m-auto pt-32 pb-32 flex flex-col items-center  gap-24 text-gray-900"
+      className="xl:max-w-[1300px]  lg:max-w-[1000px] max-w-[800px] h-screen m-auto py-3
+      mb-96 sm:mb-0 md:py-32 flex flex-col items-center  gap-24 text-gray-900"
     >
       <TitlePage>PROJECTS</TitlePage>
-      <div className="max-w-[1300px]">
+      <div className=" xl:max-w-[1190px] lg:max-w-[800px] md:max-w-[760px] max-w-[350px]">
         <Swiper
-          // install Swiper modules
+          breakpoints={{
+            370: {
+              width: 370,
+              slidesPerView: 1,
+              spaceBetween: 70,
+            },
+            768: {
+              width: 768,
+              slidesPerView: 2,
+              spaceBetween: 70,
+            },
+            1280: {
+              width: 1280,
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+          }}
           modules={[Pagination, Autoplay]}
-          spaceBetween={50}
-          slidesPerView={3}
           pagination={{
             clickable: true,
           }}

@@ -16,18 +16,18 @@ const Navbar = () => {
       {!openNav ? (
         <AiOutlineMenu
           onClick={handleMobile}
-          className="absolute top-4 right-4 z-[99] md:hidden"
-          size={40}
+          className="fixed top-4 right-4 z-[99] md:hidden"
+          size={30}
         />
       ) : (
         <AiOutlineClose
           onClick={handleMobile}
-          className="absolute top-4 right-4 z-[99] md:hidden"
-          size={40}
+          className="fixed top-4 right-4 z-[99] md:hidden"
+          size={30}
         />
       )}
 
-      {mobile ? <MobileNav /> : <DesktopNav />}
+      {mobile ? <MobileNav handleMobile={handleMobile} /> : <DesktopNav />}
     </div>
   );
 };

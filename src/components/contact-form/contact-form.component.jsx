@@ -58,9 +58,9 @@ const ContactForm = () => {
 
   return (
     <form ref={form} onSubmit={handleSubmit}>
-      <div className="flex flex-col gap-6 p-4">
+      <div className="flex flex-col gap-10 md:gap-4 lg:gap-4 xl:gap-6 xl:p-4">
         <div className="flex flex-col gap-2">
-          <label className="text-gray-100 font-semibold tracking-wider">
+          <label className="text-gray-100 font-semibold tracking-wider text-sm">
             {" "}
             Your Name:{" "}
           </label>
@@ -70,37 +70,43 @@ const ContactForm = () => {
             value={name}
             onChange={onChangeHandler}
             placeholder="What's your name?"
-            className=" py-4 px-6 placeholder:text-secondary text-gray-900 rounded-lg outline-none border-none font-medium"
+            className=" p-2 sm:p-4 md:p-2 xl:py-4 lg:px-6 placeholder:text-secondary placeholder:text-sm text-gray-900 rounded-lg outline-none border-none font-medium"
             required
           />
         </div>
-        <div className="flex flex-col">
-          <label className="text-gray-100"> Your Email: </label>
+        <div className="flex flex-col gap-2">
+          <label className="text-gray-100 font-semibold tracking-wider text-sm">
+            {" "}
+            Your Email:{" "}
+          </label>
           <input
             type="email"
             name="email"
             value={email}
             onChange={onChangeHandler}
             placeholder="What's your web address?"
-            className=" py-4 px-6 placeholder:text-secondary text-gray-900 rounded-lg outline-none border-none font-medium"
+            className=" p-2 sm:p-4 md:p-2 lg:py-4 lg:px-6 placeholder:text-secondary placeholder:text-sm text-gray-900 rounded-lg outline-none border-none font-medium"
             required
           />
         </div>
 
-        <div className="flex flex-col">
-          <label className="text-gray-100"> Your Message: </label>
+        <div className="flex flex-col gap-2">
+          <label className="text-gray-100 font-semibold tracking-wider text-sm">
+            {" "}
+            Your Message:{" "}
+          </label>
           <textarea
             rows={7}
             name="message"
             value={message}
             onChange={onChangeHandler}
             placeholder="What you want to say?"
-            className=" py-4 px-6 placeholder:text-secondary text-gray-900 rounded-lg outline-none border-none font-medium"
+            className=" p-2 sm:p-4 md:p-2 lg:py-4 lg:px-6 placeholder:text-secondary placeholder:text-sm text-gray-900 rounded-lg outline-none border-none font-medium"
           />
         </div>
         <button
           type="submit"
-          className="bg-slate-100 text-gray-800  shadow-gray-500 cursor-pointer   lg:w-[150px] sm:w-[400px] md:w-[150px] py-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md "
+          className="bg-slate-100 text-gray-800  shadow-gray-500 cursor-pointer   lg:w-[150px] sm:w-[200px] md:w-[150px] py-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md "
         >
           Send
         </button>
