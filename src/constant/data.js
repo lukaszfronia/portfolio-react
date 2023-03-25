@@ -13,7 +13,7 @@
 //   projects,
 //   contact,
 // } from "../assets";
-import backgroundhero from "../assets/michael-saidov-YNlUy_SbjWc-unsplash.jpg";
+import backgroundhero from "../assets/mountaineer-gc43a1b6ec_1920.jpg";
 import home from "../assets/home.png";
 import user from "../assets/user.png";
 import project from "../assets/projects.png";
