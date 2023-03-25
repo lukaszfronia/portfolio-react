@@ -18,7 +18,7 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className="xl:max-w-[1300px]  lg:max-w-[1000px] max-w-[800px] h-screen m-auto py-3
+      className="xl:max-w-[1300px]  lg:max-w-[1000px] max-w-[800px] h-screen m-auto py-10 md:mb-40 lg:mb-0 sm:py-44
       mb-96 sm:mb-0  flex flex-col items-center  gap-24 text-gray-900"
     >
       <TitlePage>PROJECTS</TitlePage>
