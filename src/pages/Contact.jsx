@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="xl:max-w-[1200px] lg:max-w-[1000px] md:max-w-[700px] sm:max-w-[600px] max-w-[340px] mx-auto xl:pt-32 xl:pb-32 lg:pt-48 pb-48 text-gray-900 flex flex-col items-center gap-32"
+      className="xl:max-w-[1200px] lg:max-w-[1000px] md:max-w-[700px] sm:max-w-[600px] max-w-[340px] mx-auto xl:py-32 lg:py-52 py-48 text-gray-900 flex flex-col items-center gap-32"
     >
       <TitlePage>CONTACT</TitlePage>
 
