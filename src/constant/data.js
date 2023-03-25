@@ -35,6 +35,11 @@ import Bankist from "../assets/Bankist.png";
 import Omnifood from "../assets/Omnifood.png";
 import Portfolio from "../assets/Portfolio.png";
 import Weather from "../assets/Weather.png";
+import MathQuiz from "../assets/MathQuiz.png";
+import CalculatorApple from "../assets/CalculatorApple.png";
+import CreditCard from "../assets/CreditCard.png";
+import QuizApp from "../assets/QuizApp.png";
+import ClothingApp from "../assets/ClothingApp.png";
 
 import location from "../assets/location.png";
 import mail from "../assets/mail.png";
@@ -128,6 +133,32 @@ const technologies = [
 
 const projects = [
   {
+    name: "MathQuiz",
+    tags: [
+      {
+        name: "react",
+        color: "text-blue-400",
+      },
+      {
+        name: "css",
+        color: "text-blue-600",
+      },
+    ],
+    image: MathQuiz,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Clothing App",
+    tags: [
+      {
+        name: "react",
+        color: "text-blue-400",
+      },
+    ],
+    image: ClothingApp,
+    source_code_link: "https://github.com/lukaszfronia/clothing-app",
+  },
+  {
     name: "Bankist App",
     tags: [
       {
@@ -144,7 +175,7 @@ const projects = [
       },
     ],
     image: Bankist,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lukaszfronia/Bankist-App",
   },
   {
     name: "Omnifood",
@@ -157,13 +188,9 @@ const projects = [
         name: "css",
         color: "text-blue-600",
       },
-      {
-        name: "javascript",
-        color: "text-yellow-400",
-      },
     ],
     image: Omnifood,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lukaszfronia/Omnifood",
   },
   {
     name: "Portfolio",
@@ -182,7 +209,27 @@ const projects = [
       },
     ],
     image: Portfolio,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lukaszfronia/Portfolio",
+  },
+
+  {
+    name: "Quiz App",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "text-sky-500",
+      },
+      {
+        name: "scss",
+        color: "text-pink-500",
+      },
+      {
+        name: "html",
+        color: "text-orange-500",
+      },
+    ],
+    image: QuizApp,
+    source_code_link: "https://github.com/lukaszfronia/Quiz",
   },
   {
     name: "Weather App",
@@ -201,7 +248,38 @@ const projects = [
       },
     ],
     image: Weather,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lukaszfronia/Weather",
+  },
+  {
+    name: "Calculator Apple",
+    tags: [
+      {
+        name: "react",
+        color: "text-blue-400",
+      },
+      {
+        name: "css",
+        color: "text-blue-600",
+      },
+    ],
+    image: CalculatorApple,
+
+    source_code_link: "https://github.com/lukaszfronia/calculator-react",
+  },
+  {
+    name: "Credit Card",
+    tags: [
+      {
+        name: "html",
+        color: "text-orange-500",
+      },
+      {
+        name: "scss",
+        color: "text-pink-500",
+      },
+    ],
+    image: CreditCard,
+    source_code_link: "https://github.com/lukaszfronia/creditCard",
   },
 ];
 

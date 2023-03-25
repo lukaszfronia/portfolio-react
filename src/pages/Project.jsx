@@ -22,7 +22,7 @@ const Project = () => {
       mb-96 sm:mb-0 md:py-32 flex flex-col items-center  gap-24 text-gray-900"
     >
       <TitlePage>PROJECTS</TitlePage>
-      <div className=" xl:max-w-[1190px] lg:max-w-[800px] md:max-w-[760px] max-w-[350px]">
+      <div className=" xl:max-w-[1300px]  lg:max-w-[820px] md:max-w-[760px] max-w-[350px]">
         <Swiper
           breakpoints={{
             370: {

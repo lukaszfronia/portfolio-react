@@ -5,15 +5,18 @@ import github from "../../assets/github.png";
 const Card = ({ project }) => {
   const { name, tags, image, source_code_link } = project;
   return (
-    <div className="bg-gray-100 p-8 rounded-[10px] flex flex-col items-center gap-11 md:w-[300px]  w-[350px] flex-wrap ">
+    <div className="bg-gray-100 p-8 rounded-[10px] flex flex-col items-center gap-11 md:w-[300px]  lg:w-[400px] w-[350px] flex-wrap ">
       <div className="relative">
         <img
           src={image}
           alt="project-image"
-          className="rounded-[20px] md:w-[300px]  lg:w-[350px] h-[140px] shadow-lg "
+          className="rounded-[20px] md:w-[300px]  lg:w-[350px]  h-[150px] lg:h-[170px] shadow-lg "
         />
         <div>
-          <div className="absolute top-[6%] right-[1%] w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center shadow-md shadow-gray-800 cursor-pointer">
+          <div
+            onClick={() => window.open(source_code_link, "_blank")}
+            className="absolute top-[6%] right-[1%] w-[40px] h-[40px] bg-white rounded-full flex items-center justify-center shadow-md shadow-gray-800 cursor-pointer"
+          >
             <img src={github} className="w-[30px] h-[30px]" />
           </div>
         </div>
