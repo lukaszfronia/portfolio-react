@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="xl:max-w-[1200px] lg:max-w-[1000px] mt-40 h-screen mx-auto mb-64 sm:mb-0 py-10 sm:py-44 flex flex-col items-center gap-12 text-gray-900"
+      className="xl:max-w-[1200px] lg:max-w-[1000px] mt-40 h-screen mx-auto mb-64 sm:mb-20 py-10 sm:py-22 md:py-44 flex flex-col items-center gap-12 text-gray-900"
     >
       <TitlePage>ABOUT</TitlePage>
       <div className="  md:p-12  lg:p-9 flex gap-10 justify-center items-center flex-col md:flex-row   ">
