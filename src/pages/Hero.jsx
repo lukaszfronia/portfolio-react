@@ -17,7 +17,7 @@ const Hero = () => {
             {hero.description}
           </p>
           <a
-            href="/src/CV.pdf"
+            href="CV.pdf"
             download="CV-ŁukaszFronia"
             className="flex justify-center items-center gap-4 text-xl font-semibold bg-slate-100 px-8  py-4 rounded-[15px] shadow-lg shadow-gray-500 cursor-pointer  w-[250px] md:w-[200px]"
           >
