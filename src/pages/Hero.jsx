@@ -18,7 +18,6 @@ const Hero = () => {
           </p>
           <a
             href="CV.pdf"
-            download="CV-Fronia"
             className="flex justify-center items-center gap-4 text-xl font-semibold bg-slate-100 px-8  py-4 rounded-[15px] shadow-lg shadow-gray-500 cursor-pointer  w-[250px] md:w-[200px]"
           >
             <img src={hire} className="w-[35px] h-[35px] scale-x-[-1] " />
