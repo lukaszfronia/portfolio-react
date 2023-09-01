@@ -3,6 +3,7 @@ import Navbar from "./pages/Navbar";
 import Hero from "./pages/Hero";
 import About from "./pages/About";
 import Project from "./pages/Project";
+import Tech from "./pages/Tech";
 import Contact from "./pages/Contact";
 import Footer from "./components/footer/footer.component";
 
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Project />
+      <Tech />
       <Contact />
       <Footer />
     </div>

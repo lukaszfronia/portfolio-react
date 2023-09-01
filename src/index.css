@@ -11,3 +11,7 @@ html {
 .custom-img {
   background-image: url(assets/mountaineer-gc43a1b6ec_1920.jpg);
 }
+.icons {
+  width: 80px;
+  height: 70px;
+}

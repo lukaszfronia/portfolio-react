@@ -24,6 +24,7 @@ import javascript from "../assets/javascript.png";
 import typescript from "../assets/typescript.png";
 import reactjs from "../assets/reactjs.png";
 import tailwindcss from "../assets/tailwindcss.png";
+import bootstrap from "../assets/bootstrap.png";
 import visualstudiocode from "../assets/visualstudiocode.png";
 import firebase from "../assets/firebase.png";
 import photoshop from "../assets/photoshop.png";
@@ -37,9 +38,10 @@ import Portfolio from "../assets/Portfolio.png";
 import Weather from "../assets/Weather.png";
 import MathQuiz from "../assets/MathQuiz.png";
 import CalculatorApple from "../assets/CalculatorApple.png";
-import CreditCard from "../assets/CreditCard.png";
+import AdvancedCreditCard from "../assets/advancedCreditCard.png";
 import QuizApp from "../assets/QuizApp.png";
 import ClothingApp from "../assets/ClothingApp.png";
+import giarddesign from "../assets/giarddesign.png";
 
 import location from "../assets/location.png";
 import mail from "../assets/mail.png";
@@ -78,7 +80,7 @@ const hero = {
 const about = {
   title: "I'm Łukasz",
   description:
-    "I graduated from the Opole University of Technology with an engineering degree in Computer Science. I'm interested in computer games and volleyball. I'm currently looking for a job where I can use my skills and improve them as a Front-end Developer.",
+    "I graduated from the Opole University of Technology with a master's degree in computer science. In my free time, I am constantly trying to learn new things and improve my existing skills. I am interested in computer games and volleyball.  I am a freshman in IT who is currently looking for a job where I can use my skills and improve them as a Front-end Developer",
   image: userImage,
   alt: "Author profil image",
 };
@@ -105,6 +107,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwindcss,
   },
@@ -122,11 +128,11 @@ const technologies = [
     icon: adobexd,
   },
   {
-    name: "Three JS",
+    name: "Visual Studio Code",
     icon: visualstudiocode,
   },
   {
-    name: "github",
+    name: "Github",
     icon: github,
   },
 ];
@@ -145,7 +151,28 @@ const projects = [
       },
     ],
     image: MathQuiz,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lukaszfronia/quiz-app-react",
+    website_link: "https://quizmath-fronia.netlify.app",
+  },
+  {
+    name: "giarddesign",
+    tags: [
+      {
+        name: "html",
+        color: "text-orange-500",
+      },
+      {
+        name: "bootstrap",
+        color: "text-blue-600",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-400",
+      },
+    ],
+    image: giarddesign,
+    source_code_link: "https://github.com/lukaszfronia/rekrutacja_adrespect",
+    website_link: "https://rekrutacja-adrespect-lukasz-fronia.netlify.app",
   },
   {
     name: "Clothing App",
@@ -157,6 +184,7 @@ const projects = [
     ],
     image: ClothingApp,
     source_code_link: "https://github.com/lukaszfronia/clothing-app",
+    website_link: "https://clothing-app-fronia.netlify.app",
   },
   {
     name: "Bankist App",
@@ -176,6 +204,7 @@ const projects = [
     ],
     image: Bankist,
     source_code_link: "https://github.com/lukaszfronia/Bankist-App",
+    website_link: "https://bankist-app-fronia.netlify.app",
   },
   {
     name: "Omnifood",
@@ -191,6 +220,7 @@ const projects = [
     ],
     image: Omnifood,
     source_code_link: "https://github.com/lukaszfronia/Omnifood",
+    website_link: "https://omnifood-lukfro.netlify.app",
   },
   {
     name: "Portfolio",
@@ -210,6 +240,45 @@ const projects = [
     ],
     image: Portfolio,
     source_code_link: "https://github.com/lukaszfronia/Portfolio",
+    website_link: "https://portfolio-fronia.netlify.app",
+  },
+
+  {
+    name: "Advanced Credit Card",
+    tags: [
+      {
+        name: "html",
+        color: "text-orange-500",
+      },
+      {
+        name: "scss",
+        color: "text-pink-500",
+      },
+    ],
+    image: AdvancedCreditCard,
+    source_code_link: "https://github.com/lukaszfronia/Advanced_Credit_Card",
+    website_link: "https://advanced-credit-card-fronia.netlify.app",
+  },
+
+  {
+    name: "Weather App",
+    tags: [
+      {
+        name: "html",
+        color: "text-orange-500",
+      },
+      {
+        name: "css",
+        color: "text-blue-600",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-400",
+      },
+    ],
+    image: Weather,
+    source_code_link: "https://github.com/lukaszfronia/Weather",
+    website_link: "https://weather-fronia.netlify.app",
   },
 
   {
@@ -231,25 +300,7 @@ const projects = [
     image: QuizApp,
     source_code_link: "https://github.com/lukaszfronia/Quiz",
   },
-  {
-    name: "Weather App",
-    tags: [
-      {
-        name: "html",
-        color: "text-orange-500",
-      },
-      {
-        name: "css",
-        color: "text-blue-600",
-      },
-      {
-        name: "javascript",
-        color: "text-yellow-400",
-      },
-    ],
-    image: Weather,
-    source_code_link: "https://github.com/lukaszfronia/Weather",
-  },
+
   {
     name: "Calculator Apple",
     tags: [
@@ -266,28 +317,13 @@ const projects = [
 
     source_code_link: "https://github.com/lukaszfronia/calculator-react",
   },
-  {
-    name: "Credit Card",
-    tags: [
-      {
-        name: "html",
-        color: "text-orange-500",
-      },
-      {
-        name: "scss",
-        color: "text-pink-500",
-      },
-    ],
-    image: CreditCard,
-    source_code_link: "https://github.com/lukaszfronia/creditCard",
-  },
 ];
 
 const contacts = [
   {
     id: 1,
     title: "Address",
-    data: "Chabrów 19/10 45-221 Opole",
+    data: "Katowicka 39C/5 45-061 Opole",
     icon: location,
   },
   {
@@ -299,7 +335,7 @@ const contacts = [
   {
     id: 3,
     title: "Phone",
-    data: 696129815,
+    data: "696 129 815",
     icon: phone,
   },
 ];

@@ -104,12 +104,14 @@ const ContactForm = () => {
             className=" p-2 sm:p-4 md:p-2 lg:py-4 lg:px-6 placeholder:text-secondary placeholder:text-sm text-gray-900 rounded-lg outline-none border-none font-medium"
           />
         </div>
-        <button
-          type="submit"
-          className="bg-slate-100 text-gray-800  shadow-gray-500 cursor-pointer   lg:w-[150px] sm:w-[200px] md:w-[150px] py-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md "
-        >
-          Send
-        </button>
+        <div className="flex justify-center">
+          <button
+            type="submit"
+            className="bg-slate-100 text-gray-800  shadow-gray-500 cursor-pointer   lg:w-[150px] sm:w-[200px] md:w-[150px] py-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md "
+          >
+            Send
+          </button>
+        </div>
       </div>
     </form>
   );

@@ -18,8 +18,8 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className="xl:max-w-[1300px]  lg:max-w-[1000px] max-w-[800px] h-screen m-auto py-10 md:mb-40 lg:mb-60  sm:py-18 md:py-44
-      mb-96 sm:mb-20  flex flex-col items-center  gap-24 text-gray-900"
+      className="xl:max-w-[1300px]  lg:max-w-[1000px] max-w-[800px] h-screen m-auto py-10    sm:py-18 md:py-44
+      flex flex-col items-center  gap-24 text-gray-900"
     >
       <TitlePage>PROJECTS</TitlePage>
       <div className=" xl:max-w-[1300px]  lg:max-w-[820px] md:max-w-[760px] max-w-[350px]">
@@ -55,7 +55,6 @@ const Project = () => {
           ))}
         </Swiper>
       </div>
-      <Tech />
     </div>
   );
 };

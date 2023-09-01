@@ -5,15 +5,11 @@ import { contacts } from "../constant/data";
 import ContactData from "../components/contact-data/contact-data.component";
 import ContactForm from "../components/contact-form/contact-form.component";
 
-import location from "../assets/location.png";
-import phone from "../assets/telephone.png";
-import mail from "../assets/mail.png";
-
 const Contact = () => {
   return (
     <div
       id="contact"
-      className="xl:max-w-[1200px] lg:max-w-[1000px] md:max-w-[700px] sm:max-w-[600px] max-w-[340px] mx-auto xl:py-32 lg:py-40 py-10 sm:py-18 md:py-44  text-gray-900 flex flex-col items-center gap-32"
+      className="xl:max-w-[1200px] lg:max-w-[1000px] md:max-w-[700px] sm:max-w-[600px] max-w-[340px]  mx-auto xl:py-44 lg:py-40 py-10 sm:py-18 md:py-44  text-gray-900 flex flex-col items-center gap-32"
     >
       <TitlePage>CONTACT</TitlePage>
 

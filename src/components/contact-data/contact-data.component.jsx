@@ -10,7 +10,11 @@ const ContactData = ({ contact }) => {
           {title}
         </h1>
       </div>
-      <p className="text-gray-900 md:text-md xl:text-lg">{data}</p>
+      {title === "Phone" ? (
+        <a href="tel:+48696129815">{data}</a>
+      ) : (
+        <p className="text-gray-900 md:text-md xl:text-lg">{data}</p>
+      )}
     </div>
   );
 };
